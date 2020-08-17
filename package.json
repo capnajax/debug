@@ -1,0 +1,22 @@
+{
+  "name": "debug-capn",
+  "version": "0.1.0",
+  "description": "Extension of Vision Media's debug module for extra highlighting and k8s usability",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/capnajax/debug-capn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/capnajax/debug-capn/issues"
+  },
+  "homepage": "https://github.com/capnajax/debug-capn#readme",
+  "dependencies": {
+    "debug": "^4.1.1"
+  }
+}
