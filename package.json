@@ -1,5 +1,5 @@
 {
-  "name": "debug-capn",
+  "name": "@capnajax/debug",
   "version": "0.1.1",
   "description": "Extension of Vision Media's debug module for extra highlighting and k8s usability",
   "main": "index.js",
