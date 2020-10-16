@@ -9,6 +9,8 @@ function fakeLog() {
   let fakeDebug = () => {};
   fakeDebug.enabled = false;
 
+  fakeDebug.sensitive = function fakeLog_sensitive() {}
+
   return fakeDebug;
 }
 
@@ -27,7 +29,19 @@ function log(namespace) {
   };
   
   debug.log = console.log.bind(console);
+
+  // extra logging functions
+
+  // call this if the message may contain sensitive information like passwords
+  // and keys. These messages will only go out if DEBUG_SENSITIVE is set.
+  result.sensitive = function log_sensitive(...s) {
+    if (process.env.DEBUG_SENSITIVE) {
+      result.apply(null, s);
+    }
+  }
+
   return result;
 }
+
 
 module.exports = enabled ? log : fakeLog;
