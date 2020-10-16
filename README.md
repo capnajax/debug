@@ -1,6 +1,6 @@
 # Cap'n Ajax Debug
 
-Extension and of [Vision Media's debug](https://github.com/visionmedia/debug#readme) module for extra highlighting
+Extension and of [Vision Media's debug](https://github.com/visionmedia/debug#readme) module for extra highlighting and redacting sensitive information.
 
 ## Installation
 

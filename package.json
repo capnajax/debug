@@ -1,7 +1,7 @@
 {
   "name": "@capnajax/debug",
   "version": "1.0.0",
-  "description": "Extension of Vision Media's debug module for extra highlighting and k8s usability",
+  "description": "Extension of Vision Media's debug module for extra highlighting and redacting sensitive information",
   "main": "index.js",
   "scripts": {
     "test": "cd test ; ./20-special-calls.sh"
