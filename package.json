@@ -1,6 +1,6 @@
 {
   "name": "@capnajax/debug",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Extension of Vision Media's debug module for extra highlighting and redacting sensitive information",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/capnajax/debug#readme",
   "dependencies": {
-    "debug": "^4.1.1"
+    "debug": "^4.3.1"
   }
 }
